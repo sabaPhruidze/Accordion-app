@@ -3,7 +3,7 @@ import './App.css';
 import AccordionCard from './components/AccordionCard';
 function App() {
   return (
-   <div>
+   <div className='container'>
     <AccordionCard/>
    </div>
   );

@@ -1,18 +1,95 @@
+@font-face {
+    font-family: OpenSansLight;
+    src: url(../fonts/OpenSans-Light.ttf);
+  }
 
-.arrow {
-    width:50px;
-    height:50px;
-    cursor: pointer;
+.mainContainer {
+    width:920px;
+    height:509px;
+    background-color:rgb(230, 225, 225);
+    border-radius: 23px;
+    display: flex;
+    flex-direction: row;
+  }
+/* image part */
+.imagePartContainer {
+    width:380px;
+    height:509px;
+   
+    position:relative;
+    margin-right:87px;
+    overflow: hidden;
+} 
+.womanWithComp {
+    width:472px;
+    height:278px;
+    position: absolute;
+    top:70px;
+    right:0;
     
+}
+.bgPatternDesktop {
+    width:964px;
+    height:568px;
+    position: absolute;
+    top:-175px;
+    right:54px;
+
+}
+.dash {
+    width:964px;
+    height:568px;
+    position: absolute;
+    top:160px;
+    right:45px;
+    transform: rotate(-3deg);
+}
+/* image part */
+/* FAQ part */
+.card {
+    width: 330px;
+}
+.cardActive {
+    margin-bottom: 30px;
+}
+.questions h1 {
+    width:67px;
+    height:20px;
+    font-size: 40px;
+    margin-top:65px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.questions p {
+    font-size: 14px;
+}
+.pActive {
+    font-weight: 700;
+}
+.content {
+    font-size: 12px;
+    margin-bottom:30px;
+    font-family: OpenSansLight;
+}
+.arrow {
+    width:30px;
+    height:30px;
+    cursor: pointer;
+    filter: invert(66%) sepia(64%) saturate(2532%) hue-rotate(324deg) brightness(98%) contrast(94%);
 }
 .active {
     transform: rotate(180deg);
 }
 .dFlexRow {
-    width:300px;
-    height:30px;
+    width:350px;
+    height:35px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:space-between;
+}
+hr {
+    margin:16px 0 -5px 0;
 }
